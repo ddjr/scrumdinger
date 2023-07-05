@@ -9,4 +9,5 @@ import Foundation
 
 class ScrumStore: ObservableObject {
     @Published var scrums: [DailyScrum] = []
+    /// this is a scrum comment
 }
