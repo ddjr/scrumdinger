@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class ScrumStore: ObservableObject {
     @Published var scrums: [DailyScrum] = []
     
@@ -18,5 +19,27 @@ class ScrumStore: ObservableObject {
             create: false
         )
         .appendingPathComponent("scrums.data")
+    }
+    
+    func load() async throws {
+        let task = Task<[DailyScrum], Error> {
+            let fileURL = try Self.fileURL()
+            guard let data = try? Data(contentsOf: fileURL) else {
+                return []
+            }
+            let DailyScrums = try JSONDecoder().decode([DailyScrum].self, from: data)
+            return DailyScrums
+        }
+        let scrums = try await task.value
+        self.scrums = scrums
+    }
+    
+    func save(scrums: [DailyScrum]) async throws {
+        let task = Task {
+            let data = try JSONEncoder().encode(scrums)
+            let outfile = try Self.fileURL()
+            try data.write(to: outfile)
+        }
+        _ = try await task.value
     }
 }
