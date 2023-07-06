@@ -40,7 +40,7 @@
 		3E6965492A5592A100034D34 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		3E69654B2A55EDC900034D34 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		3E69654D2A55F3B700034D34 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
-		3E6965502A55F45300034D34 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		3E6965502A55F45300034D34 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = Scrumdinger/ding.wav; sourceTree = SOURCE_ROOT; };
 		3E6965532A55F6BE00034D34 /* ScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumSheet.swift; sourceTree = "<group>"; };
 		3E6965562A55F9C900034D34 /* DetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheet.swift; sourceTree = "<group>"; };
 		3E6965582A56000F00034D34 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
@@ -93,15 +93,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		3E69654F2A55F45300034D34 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3E6965502A55F45300034D34 /* ding.wav */,
-			);
-			name = Resources;
-			path = ../../../ManagingState/Scrumdinger/Resources;
-			sourceTree = "<group>";
-		};
 		3EA6D5A72A53B2E800A0B510 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,7 +132,7 @@
 				3E6965462A55903D00034D34 /* Views */,
 				AAAE801F294793AB0099DABC /* ScrumdingerApp.swift */,
 				AAAE8023294793AB0099DABC /* Assets.xcassets */,
-				3E69654F2A55F45300034D34 /* Resources */,
+				3E6965502A55F45300034D34 /* ding.wav */,
 				AAAE8025294793AB0099DABC /* Preview Content */,
 			);
 			path = Scrumdinger;
