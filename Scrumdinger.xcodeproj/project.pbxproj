@@ -20,6 +20,7 @@
 		3E6965592A56000F00034D34 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6965582A56000F00034D34 /* History.swift */; };
 		3E69655B2A56088F00034D34 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69655A2A56088F00034D34 /* ScrumStore.swift */; };
 		3E69655D2A5719B200034D34 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69655C2A5719B200034D34 /* ErrorWrapper.swift */; };
+		3E69655F2A571A6600034D34 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E69655E2A571A6600034D34 /* ErrorView.swift */; };
 		3EA6D5A92A53B2FE00A0B510 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6D5A82A53B2FE00A0B510 /* Theme.swift */; };
 		3EA6D5AB2A53B4AB00A0B510 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6D5AA2A53B4AB00A0B510 /* DailyScrum.swift */; };
 		3EA6D5AD2A54415E00A0B510 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA6D5AC2A54415E00A0B510 /* CardView.swift */; };
@@ -47,6 +48,7 @@
 		3E6965582A56000F00034D34 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		3E69655A2A56088F00034D34 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		3E69655C2A5719B200034D34 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		3E69655E2A571A6600034D34 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		3EA6D5A82A53B2FE00A0B510 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3EA6D5AA2A53B4AB00A0B510 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		3EA6D5AC2A54415E00A0B510 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				3E6965402A54CADC00034D34 /* ThemeView.swift */,
 				3EA6D5B02A544BDF00A0B510 /* TrailingIconLabelStyle.swift */,
 				3E69654B2A55EDC900034D34 /* MeetingFooterView.swift */,
+				3E69655E2A571A6600034D34 /* ErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				3E6965412A54CADC00034D34 /* ThemeView.swift in Sources */,
 				3EA6D5AD2A54415E00A0B510 /* CardView.swift in Sources */,
 				3E69654E2A55F3B700034D34 /* AVPlayer+Ding.swift in Sources */,
+				3E69655F2A571A6600034D34 /* ErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
